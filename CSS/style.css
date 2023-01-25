@@ -540,6 +540,11 @@
 			.imag {
 				margin-left: 185px;
 			}
+			.to{
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-end;
+			}
         }
 		@media screen and (max-width: 1000px) {
 
@@ -554,11 +559,6 @@
 				width: 100%;
 			}
 		
-			.to{
-				flex-direction: column;
-				justify-content: flex-start;
-				align-items: flex-end;
-			}
 		}
 
 		
